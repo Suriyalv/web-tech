@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Titan Pipes - Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background: url('Website main background.png') no-repeat center center / cover;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    section {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #3D74B6;">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Titan Pipes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="sample2.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="sample2.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="sample2.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="sample2.html">Quality</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container-sm bg-light rounded shadow p-4">
+      <h2 class="text-center mb-4">Enter your details here<br>We will contact you as soon as possible</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form class="needs-validation">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" required />
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" required />
+              <div class="invalid-feedback">Please enter a valid email address.</div>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone No</label>
+              <input type="tel" class="form-control" id="phone" required pattern="[0-9]{10}" />
+              <div class="invalid-feedback">Please enter a 10-digit phone number.</div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+              <div class="invalid-feedback">Please enter your message.</div>
+            </div>
+            <div class="text-center py-3">
+              <button type="submit" class="btn btn-outline-primary px-5">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+</html>

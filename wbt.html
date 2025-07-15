@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Titan Pipes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      padding-top: 70px;
+    }
+    #home {
+      background: url('Website main background.png') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    nav {
+      background-color: #3D74B6;
+    }
+    .nav-link {
+      color: white ;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Titan Pipes</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#quality">Quality</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="home">
+  <div class="text-center">
+    <img src="LOGO2.png" alt="Titan Pipes Logo" class="img-fluid" style="max-height: 250px;" />
+  </div>
+</section>
+
+<!-- Carousel -->
+<section class="container my-5">
+  <div id="carouselTitan" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img src="hdpe.png" class="d-block w-100" alt="First Slide" height="500px" width="500px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Reliable HDPE Solutions</h5>
+          <p>Precision-engineered for strength and durability.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pvc.png" class="d-block w-100" alt="Second Slide" height="500px" width="500px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Trusted PVC Piping</h5>
+          <p>Lightweight and cost-effective for every application.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="LOGO2.png" class="d-block w-100" alt="Third Slide" height="500px" width="500px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Certified Quality</h5>
+          <p>Adhering to the highest manufacturing standards.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTitan" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselTitan" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</section>
+
+<!-- About Us -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-6">
+        <h2 class="display-5 text-primary"><strong>Who Are We</strong></h2>
+        <p>TITAN PIPES is a manufacturer and supplier of high-quality HDPE products for the construction and agriculture industries. We're known for innovation, reliability, and sustainability in the piping industry.</p>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="display-5 text-primary"><strong>Mission</strong></h2>
+        <p>We aim to provide top-quality HDPE products with precision and eco-conscious practices. Our mission is to deliver safe, durable, and cost-effective pipe solutions.</p>
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-6">
+          <h2 class="display-4 text-primary"><strong> Vision</strong></h2>
+          <p>To be the most trusted name in piping by continuously innovating and ensuring the highest standards of quality and service.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products -->
+<section id="products" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Products</h2>
+    <div class="row g-4">
+      <div class="col-md-6 text-center">
+        <div class="card m-5" style="width:400px;">
+          <img src="hdpe.png" alt="HDPE Pipes" class="img-fluid mb-3"/>
+          <h4>HDPE Pipes</h4>
+          <p>Durable, chemical-resistant, and flexible — ideal for water supply, gas distribution, and industrial applications.</p>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <div class="card m-5" style="width:400px">
+          <img src="pvc.png" alt="PVC Pipes" class="img-fluid mb-3" />
+          <h4>PVC Pipes</h4>
+          <p>Strong, lightweight, and cost-effective pipes perfect for plumbing, drainage, and agricultural use.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Comparison Table -->
+    <div class="container mt-5">
+      <h3 class="text-center mb-3">Product Comparison</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="table-primary">
+            <tr>
+              <th>Feature</th>
+              <th>HDPE Pipes</th>
+              <th>PVC Pipes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Material</td>
+              <td>High-Density Polyethylene</td>
+              <td>Polyvinyl Chloride</td>
+            </tr>
+            <tr>
+              <td>Flexibility</td>
+              <td>High</td>
+              <td>Moderate</td>
+            </tr>
+            <tr>
+              <td>UV Resistance</td>
+              <td>Excellent</td>
+              <td>Good</td>
+            </tr>
+            <tr>
+              <td>Applications</td>
+              <td>Water, Gas, Industry</td>
+              <td>Plumbing, Drainage, Agriculture</td>
+            </tr>
+            <tr>
+              <td>Cost</td>
+              <td>Higher</td>
+              <td>Lower</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Quality Section -->
+<section id="quality" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Quality</h2>
+    <div class="row g-4">
+      <div class="col-md-6 border p-3">
+        <h4>Why Titan Pipes?</h4>
+        <ul>
+          <li>Made from 100% virgin PE materials</li>
+          <li>Non-toxic and odor-free</li>
+          <li>UV and chemical resistance</li>
+          <li>Flexible and abrasion resistant</li>
+          <li>High flow with minimal friction loss</li>
+        </ul>
+      </div>
+      <div class="col-md-6 border p-3">
+        <h4>Quality Assurance</h4>
+        <ul>
+          <li>Dimensional accuracy checks</li>
+          <li>Creep rupture and hydrostatic pressure testing</li>
+          <li>Carbon black dispersion tests</li>
+          <li>Tensile strength & elongation analysis</li>
+        </ul>
+      </div>
+      <div class="col-md-6 border p-3">
+        <h4>Crush Resistance</h4>
+        <p>Our pipes offer excellent crush resistance and microbial protection, especially important for underground applications.</p>
+      </div>
+      <div class="col-md-6 border p-3">
+        <h4>Handling & Storage</h4>
+        <ul>
+          <li>Use PPE and appropriate lifting tools</li>
+          <li>Do not drag or drop pipes</li>
+          <li>Store in a dry, shaded, and level area</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Certifications -->
+<section id="certifications" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-3">Certifications</h2>
+    <p>We comply with BIS (Bureau of Indian Standards) and other industry regulations to ensure our HDPE and PVC pipes meet the highest quality benchmarks.</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>© 2025 Titan Pipes. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
